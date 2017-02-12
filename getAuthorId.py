@@ -1,6 +1,9 @@
+#得到每个专业前1000个人
+#存储在Authors上
+
+
 #get something about author
 import pymysql.cursors
-
 # Connect to the database
 connection = pymysql.connect(host='127.0.0.1',
                              port=3306,

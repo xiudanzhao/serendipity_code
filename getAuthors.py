@@ -1,6 +1,9 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
+
+#未运行
+#
 #prepare for W
 
 import pymysql.cursors
