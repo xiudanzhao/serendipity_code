@@ -24,7 +24,7 @@ connection.commit()
 
 cursor.execute("select collaborator from top_1000_P;")
 results=cursor.fetchall()
-for result in results:
+for result in results:pu
 	collaborators=result[0].strip().split("#")
 	for collaborator in collaborators:
 		cursor.execute("INSERT INTO collaborator_P(author) VALUES (%s)",collaborator)
